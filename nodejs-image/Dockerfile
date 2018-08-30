@@ -1,7 +1,8 @@
 # Base Image
-FROM alpine
+FROM node:alpine
 
 # Dependencies
+
 RUN npm install
 
 # Default CMD
